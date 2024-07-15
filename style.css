@@ -1,0 +1,340 @@
+/* Base styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.png');
+    background-size: cover; /* Ensure the background covers the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-attachment: fixed; /* Make the background fixed */
+    background-color: rgba(0, 0, 0, .2); /* Transparent black background */
+    font-weight: bold;
+}
+
+/* Header container */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 5%;
+    text-align: center; /* Center align text */
+}
+
+/* Styles for .logo */
+.logo {
+    flex: 1;
+    text-align: left;
+}
+
+.logo img {
+    max-height: 100px;
+    width: auto;
+    min-width: 350px;
+    align-self: flex-start;
+}
+
+/* CSS for navigation buttons */
+.nav-buttons {
+    flex: 3;
+}
+
+.navs {
+    list-style-type: none;
+    display: flex; /* Use flexbox to display items horizontally */
+    justify-content: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 1vh 0; /* Example padding for top and bottom */
+}
+
+.navs li {
+    margin-right: 10px; /* Adjust spacing between buttons */
+}
+
+.navs a {
+    display: inline-block;
+    padding: 15px 30px; /* Increase padding for larger size */
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Remove underline */
+    border-radius: 8px; /* Increase border-radius for more rounded corners */
+    font-size: 18px; /* Increase font size */
+    background-color: #55555552; /* Solid background color */
+}
+
+.navs a:hover {
+    color: gray; /* Darker orange on hover */
+}
+
+/* Media query to hide navigation buttons on smaller screens */
+@media (max-width: 1024px) {
+    .nav-buttons {
+        display: none;
+    }
+}
+
+.sub-changes {
+    font-size: 17px;
+    font-style: italic;
+    color: black;
+    text-align: center; /* Center align text */
+}
+
+h3 {
+    font-size: medium;
+}
+.server {
+    color: black;
+    text-align: center; /* Center align text */
+    padding-top: 300px; /* Adjust as needed */
+    padding-bottom: 350px;
+}
+
+.large {
+    text-align: center; /* Center align text */
+    font-size: 30px;
+}
+
+.large2 {
+    text-align: center; /* Center align text */
+    font-size: 30px;
+    display: flex;
+}
+
+.changes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Adjust as needed for spacing between columns */
+    margin-bottom: 50px; /* Adjust for spacing between rows */
+}
+
+.change-item {
+    width: 200px; /* Adjust width as needed */
+    word-wrap: break-word;
+}
+
+.sub-modifications {
+    font-size: 17px;
+    font-style: italic;
+    color: black;
+    text-align: center; /* Center align text */
+}
+
+.sub-modifications2 {
+    font-size: 17px;
+    font-style: italic;
+    color: black;
+    text-align: center; /* Center align text */
+}
+
+.modifications {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Adjust as needed for spacing between columns */
+    margin-bottom: 50px; /* Adjust for spacing between rows */
+}
+
+.mod-item {
+    width: 200px; /* Adjust width as needed */
+    word-wrap: break-word;
+    padding: 50px;
+}
+
+.text1 {
+    font-size: 20px; /* Corrected property name */
+    text-align: center; /* Center align text */
+}
+
+.Ref {
+    color: white;
+    font-weight: bold; /* Corrected property name */
+    font-size: 40px;
+}
+.community-points {
+    color: black; /* Text color */
+    padding: 1vh 0; /* Example padding for top and bottom */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
+}
+
+.community-info {
+    color: black; /* Text color */
+    padding: 1vh 0; /* Example padding for top and bottom */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
+}
+
+.community-socials {
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
+}
+
+.community-staff {
+    margin: 0;
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
+}
+
+.community-kits {
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
+}
+
+.community-modifications {
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
+}
+
+.community-changes {
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
+}
+
+h3 {
+    color: white; /* Text color */
+}
+
+h1 {
+    color: white; /* Text color */
+}
+
+.text {
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center; /* Center align text */
+    padding-top: 50px; /* Adjust as needed */
+    width: 600px; /* Adjust the width as needed */
+    word-wrap: break-word; /* Ensure long words break and wrap */
+    display: flex;
+    margin: 0 auto; /* Optional: Center align the paragraph */
+}
+
+.text3 {
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center; /* Center align text */
+    padding-right: 50px;
+    display: inline-block;
+}
+
+.links li {
+    display: inline-block;
+    margin: 5px; /* Adjust spacing between buttons */
+}
+
+.links a {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding to reduce left padding */
+    background-color: orange; /* Orange background */
+    color: #000000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold; /* Add bold font weight for emphasis */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.links a:hover {
+    background-color: darkorange; /* Darker shade of orange on hover */
+}
+
+/* Boxed text styles */
+.kit-name {
+    margin-top: 10px; /* Space between elements */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Padding around the text */
+    background-color: darkorange; /* Orange background */
+    color: #000000; /* Text color */
+    font-size: 20px; /* Font size */
+    list-style-type: none; /* Remove default list style */
+    display: flex; /* Use flexbox to display items horizontally */
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.kit-details {
+    margin-top: 10px; /* Space between elements */
+    text-align: left; /* Left align text */
+    padding: 10px; /* Padding around the text */
+    background-color: orange; /* Orange background */
+    color: #000000; /* Text color */
+    font-size: 16px; /* Font size */
+    display: flex; /* Use flexbox to display items horizontally */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: left; /* Left align items horizontally */
+    align-items: left; /* Left align items vertically */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.kit-details li {
+    margin-bottom: 5px; /* Space between list items */
+    list-style-type: none; /* Remove default list style */
+}
+
+.kit-details li:before {
+    content: "- "; /* Add a dash before each list item */
+}
+
+.kit-image {
+    max-width: 350px; /* Adjust maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline-block whitespace */
+    margin: 0 auto; /* Center align the image */
+    border: 1px solid #ccc; /* Add border around the images */
+    border-radius: 8px; /* Optional: Rounded corners */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.kit-image:hover {
+    transform: scale(1.1);
+}
+
+/* Lightbox styles */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.logo-image {
+    max-width: 90px;
+    border: 2px solid #ccc; /* Add border around the images */
+    border-radius: 5px; /* Rounded corners */
+}
+
+footer {
+    padding: 5px;
+    background-color: #5a5a5a;
+    text-align: center;
+}
